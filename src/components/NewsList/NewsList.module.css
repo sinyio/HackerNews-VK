@@ -6,3 +6,15 @@
   width: 50%;
   margin-bottom: 0.5rem;
 }
+
+@media (width < 1280px) {
+  .news_list {
+    width: 80%;
+  }
+}
+
+@media (width < 768px) {
+  .news_list {
+    width: 90%;
+  }
+}
