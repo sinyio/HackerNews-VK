@@ -1,0 +1,23 @@
+.sort_bar {
+  display: flex;
+  align-items: center;
+}
+
+.select {
+  width: 150px;
+  padding: .5rem;
+  font: inherit;
+  border-radius: 0.5rem;
+  cursor: pointer;
+}
+
+.title {
+  margin-right: 1rem;
+  padding-bottom: 6px;
+}
+
+@media (width < 568px) {
+  .sort_bar {
+    flex-direction: column;
+  }
+}

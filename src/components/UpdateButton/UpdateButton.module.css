@@ -1,0 +1,11 @@
+@media (width < 768px) {
+  .update_button {
+    width: 50%;
+  }
+}
+
+@media (width < 568px) {
+  .update_button {
+    width: 100%;
+  }
+}

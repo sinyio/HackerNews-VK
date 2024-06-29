@@ -1,0 +1,25 @@
+.news_item {
+  padding: 0.75rem;
+  border: 1px solid #213;
+  border-radius: 0.25rem;
+  margin-bottom: 0.5rem;
+  color: #000000;
+  transition: 0.2s ease background-color, 0.2s ease color, 0.2s ease transform, 0.2s ease border-color;
+
+  &:hover {
+    background-color: #0077FF;
+    color: #fff;
+    transform: translateX(1%);
+    border-color: transparent;
+  }
+
+  &:hover .news_link {
+    color: #fff;
+  }
+}
+
+.news_link {
+  color: #0077FF;
+  transition: 0.2s ease color
+}
+
